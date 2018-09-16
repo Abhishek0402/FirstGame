@@ -3,4 +3,188 @@
     padding: 0;
     box-sizing: border-box;
    }
+ #header{
+ 	background-color: pink;
+ 	height: 100px;
+ 	padding-top: 20px;
+ 	text-align: center;
+ 	font-size: 50px;
+ 	font-weight: bold;
+}
+.bg1{
+background-image: linear-gradient(violet,lightblue,violet);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 84.9vh;
+}
+.bg2{
+	background-color: black;
+	height:84.9vh;
+	width: 750px;
+}
+#start{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+#start button{
+	font-weight: bold;
+	font-size: 50px;
+	background-color: skyblue;
+	padding: 5px;
+	width: 250px;
+}
+#start button:hover{
+	background-color: blue;
+	font-size: 52px;
+}
+#detect{
+	 
+	  margin-top: 10px;
+	  border: 2px solid #000000;
+     font-size: 30px;
+       font-weight: bold;
+        padding-left: 250px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        width: 750px;
+     height: 25px;
+     background-color: white;
+}
 
+#cl1{
+	  margin-left: 60px;
+	  margin-top: 20px;
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: yellow;
+      transition: transform 1s;
+}
+#cl1:hover{
+    transform: translate(10px, 10px);     
+}
+
+#cl2{
+
+    margin-left: 300px;
+    margin-top: -100px;
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: red;
+        transition: transform 1s;
+}
+#cl2:hover{
+    transform: translate(10px, 10px);     
+}
+#cl3{
+       margin-left: 540px;
+      margin-top: -100px;
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: pink;
+        transition: transform 1s;
+}
+#cl3:hover{
+    transform: translate(10px, 10px);     
+}
+#cl4{
+	margin-left: 60PX;
+	margin-top:30px; 
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: blue;
+        transition: transform 1s;
+}
+#cl4:hover{
+    transform: translate(10px, 10px);     
+}
+#cl5{
+	margin-left: 300PX;
+	margin-top:-100px; 
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: green;
+        transition: transform 1s;
+}
+#cl5:hover{
+    transform: translate(10px, 10px);     
+}
+#cl6{
+	margin-left: 540PX;
+	margin-top:-100px; 
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: brown;
+        transition: transform 1s;
+}
+#cl6:hover{
+    transform: translate(10px, 10px);     
+}
+#cl7{
+	margin-left: 60PX;
+	margin-top:30px; 
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: violet;
+        transition: transform 1s;
+}
+#cl7:hover{
+    transform: translate(10px, 10px);     
+}
+#cl8{
+	margin-left: 300PX;
+	margin-top:-100px; 
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color: purple;
+        transition: transform 1s;
+}
+#cl8:hover{
+    transform: translate(10px, 10px);     
+}
+#cl9{
+	margin-left: 540PX;
+	margin-top:-100px; 
+	  border: 2px solid #000000;
+   padding: 35px;
+     font-size: 20px;
+     font-weight: bold;
+     width: 150px;
+     height: 100px;
+     background-color:gray;
+        transition: transform 1s;
+}
+#cl9:hover{
+    transform: translate(10px, 10px);     
+}
