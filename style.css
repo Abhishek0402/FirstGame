@@ -32,10 +32,30 @@ background-image: linear-gradient(violet,lightblue,violet);
 	background-color: skyblue;
 	padding: 5px;
 	width: 250px;
+	transition: 0.5s;
 }
 #start button:hover{
 	background-color: blue;
 	font-size: 52px;
+}
+#count
+{
+	margin-top: -74px;
+	 margin-left: 400px;
+}
+
+#title
+{
+ 
+	  border: 2px solid #000000;
+     font-size: 30px;
+       font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 60px;
+      padding-left: 30px;
+        width: 250px;
+     height:42px;	
+      background-color: yellow;
 }
 #detect{
 	 
@@ -43,11 +63,23 @@ background-image: linear-gradient(violet,lightblue,violet);
 	  border: 2px solid #000000;
      font-size: 30px;
        font-weight: bold;
-        padding-left: 250px;
+        padding-left: 170px;
         padding-top: 10px;
         padding-bottom: 40px;
         width: 750px;
      height: 25px;
+     background-image: linear-gradient(red,pink);
+}
+#res{
+	  margin-left: 900px;
+	  margin-top: -300px;
+	  border: 2px solid #000000;
+   padding: 35px;
+   text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     width: 250px;
+     height: 100px;
      background-color: white;
 }
 
@@ -62,9 +94,9 @@ background-image: linear-gradient(violet,lightblue,violet);
      height: 100px;
      background-color: yellow;
       transition: transform 1s;
-}
+  }
 #cl1:hover{
-    transform: translate(10px, 10px);     
+    transform: translate(10px, 10px);   
 }
 
 #cl2{
