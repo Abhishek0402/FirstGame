@@ -11,12 +11,24 @@ var c=['YELLOW','RED','PINK','GREEN','BLUE','BROWN','GRAY','VIOLET','PURPLE'];
 		time--;
 		document.getElementById('my').disabled=true;
 		document.getElementById('title').textContent=time;
-         if (time <= 0) {
-       	 clearInterval(x);
+         if (time <0) {
+       	 alert("GAME OVER!!!!!  YOUR SCORE IS "+ result);
+       	 location.reload();
+     comp();
        document.getElementById('title').style.backgroundColor="red";
      }
 
 	},1000);
+}
+function comp(i){
+	var l1=i;
+	var n = document.getElementById('detect').innerHTML;
+	if(n ===l1)
+{
+    ++result;
+}
+  document.getElementById('res').innerHTML = result;
+  return result;
 }
 function jsplay1()
 {
