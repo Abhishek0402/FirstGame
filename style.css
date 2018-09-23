@@ -4,21 +4,23 @@
     box-sizing: border-box;
    }
  #header{
- 	background-color: pink;
+ 	background-color:#FF4080;
  	height: 100px;
  	padding-top: 20px;
  	text-align: center;
  	font-size: 50px;
  	font-weight: bold;
+
 }
 .bg1{
-background-image: linear-gradient(violet,lightblue,violet);
+
+background-color:#26A69A;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 84.9vh;
 }
 .bg2{
-	background-color: black;
+	background-color: #B2DFDB;
 	height:84.9vh;
 	width: 750px;
 }
@@ -26,67 +28,69 @@ background-image: linear-gradient(violet,lightblue,violet);
 	padding-left: 50px;
 	padding-top: 20px;
 }
-#start button{
-	font-weight: bold;
-	font-size: 50px;
-	background-color: skyblue;
-	padding: 5px;
-	width: 250px;
+#my{
+	  border: 2px solid #000000;
+     border-radius: 20px;
+     font-size: 50px;
+       font-weight: bold;
+      padding:5px;
+        width: 250px;
+     height:70px; 
+    background-color: #0097A7;
 	transition: 0.5s;
 }
-#start button:hover{
-	background-color: blue;
+#my:hover{
+	background-color: #7C4DFF;
 	font-size: 52px;
 }
 #count
 {
-	margin-top: -74px;
-	 margin-left: 400px;
+	margin-left: 400px;
+  margin-top: -70px;
 }
-
 #title
 {
- 
-	  border: 2px solid #000000;
-     font-size: 30px;
+   border: 2px solid #000000;
+     border-radius: 20px;
+     font-size: 50px;
        font-weight: bold;
-      padding-top: 10px;
-      padding-bottom: 60px;
-      padding-left: 30px;
+      padding:5px;
         width: 250px;
-     height:42px;	
-      background-color: yellow;
+     height:70px; 
+     	background-color:#FF8A65;
 }
 #detect{
-	 
-	  margin-top: 10px;
+	     margin-top: 10px;
 	  border: 2px solid #000000;
+     border-radius: 20px;
      font-size: 30px;
        font-weight: bold;
-        padding-left: 170px;
+        padding-left: 250px;
         padding-top: 10px;
         padding-bottom: 40px;
         width: 750px;
      height: 25px;
-     background-image: linear-gradient(red,pink);
+     background-color:#FF4081;
 }
 #res{
 	  margin-left: 900px;
 	  margin-top: -300px;
 	  border: 2px solid #000000;
-   padding: 35px;
+     border-radius: 20px;
+   padding: 20px;
+   font-family: monospace;
    text-align: center;
-     font-size: 20px;
+     font-size: 30px;
      font-weight: bold;
      width: 250px;
      height: 100px;
-     background-color: white;
+     background-color:#D32F2F ;
 }
-
 #cl1{
 	  margin-left: 60px;
 	  margin-top: 20px;
 	  border: 2px solid #000000;
+    border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -94,16 +98,16 @@ background-image: linear-gradient(violet,lightblue,violet);
      height: 100px;
      background-color: yellow;
       transition: transform 1s;
-  }
+    }
 #cl1:hover{
-    transform: translate(10px, 10px);   
+             transform: translate(10px,10px); 
 }
-
 #cl2{
 
     margin-left: 300px;
     margin-top: -100px;
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -119,6 +123,7 @@ background-image: linear-gradient(violet,lightblue,violet);
        margin-left: 540px;
       margin-top: -100px;
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -134,6 +139,7 @@ background-image: linear-gradient(violet,lightblue,violet);
 	margin-left: 60PX;
 	margin-top:30px; 
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -149,6 +155,7 @@ background-image: linear-gradient(violet,lightblue,violet);
 	margin-left: 300PX;
 	margin-top:-100px; 
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -164,6 +171,7 @@ background-image: linear-gradient(violet,lightblue,violet);
 	margin-left: 540PX;
 	margin-top:-100px; 
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -179,6 +187,7 @@ background-image: linear-gradient(violet,lightblue,violet);
 	margin-left: 60PX;
 	margin-top:30px; 
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -194,6 +203,7 @@ background-image: linear-gradient(violet,lightblue,violet);
 	margin-left: 300PX;
 	margin-top:-100px; 
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;
@@ -209,6 +219,7 @@ background-image: linear-gradient(violet,lightblue,violet);
 	margin-left: 540PX;
 	margin-top:-100px; 
 	  border: 2px solid #000000;
+     border-radius: 20px;
    padding: 35px;
      font-size: 20px;
      font-weight: bold;

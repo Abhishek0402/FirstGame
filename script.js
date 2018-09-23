@@ -1,12 +1,12 @@
 var result=0;
 var c=['YELLOW','RED','PINK','GREEN','BLUE','BROWN','GRAY','VIOLET','PURPLE'];
- function str()
-{   
-	var time=20;
-	
+var flag = false; 
+var time = 20;
+function str(){   
+   flag = true;
    jsplay1();
-	document.getElementById('title').style.backgroundColor="green";
-     var x=setInterval(function()
+   document.getElementById('title').style.backgroundColor="#64FFDA";
+     setInterval(function()
 	{
 		time--;
 		document.getElementById('my').disabled=true;
@@ -14,24 +14,28 @@ var c=['YELLOW','RED','PINK','GREEN','BLUE','BROWN','GRAY','VIOLET','PURPLE'];
          if (time <0) {
        	 alert("GAME OVER!!!!!  YOUR SCORE IS "+ result);
        	 location.reload();
-     comp();
-       document.getElementById('title').style.backgroundColor="red";
      }
-
-	},1000);
+},1000);
 }
-function comp(i){
-	var l1=i;
+
+function comp(m){
+	var l1=m;
 	var n = document.getElementById('detect').innerHTML;
 	if(n ===l1)
 {
-    ++result;
+       if (flag) {
+               ++result;
 }
+}
+if(flag){
   document.getElementById('res').innerHTML = result;
+  }
   return result;
 }
+
 function jsplay1()
 {
+    if(flag){
     var rnd1=Math.floor(Math.random()*9);
     document.getElementById('cl1').innerHTML = c[rnd1];
     var rnd2=Math.floor(Math.random()*9);
@@ -55,3 +59,4 @@ function jsplay1()
 	var tr = abc[rnd];
     document.getElementById('detect').innerHTML = c[tr];
  }
+}
